@@ -1,0 +1,37 @@
+{
+  "reactComponent": {
+    "prefix": "rc",
+    "body": "import React from 'react';\nimport styled from 'styled-components';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\t \n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n\nexport default ${1:${TM_FILENAME_BASE}};",
+    "description": "Creates a React component class with ES6 module system"
+  },
+  "typedReactComponent": {
+    "prefix": "rct",
+    "body": "import React from 'react';\nimport styled from 'styled-components';\n\ninterface ${1:${TM_FILENAME_BASE}}Props {\n\n}\n\nconst ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {\n\t \n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n\nexport default ${1:${TM_FILENAME_BASE}};",
+    "description": "Creates a React component class with ES6 module system"
+  },
+  "createStyledComponent": {
+    "prefix": "sc",
+    "body": "const ${1} = styled.${2}`\n  ${3}\n`",
+    "description": "Creates styled component"
+  },
+  "createStyledDiv": {
+    "prefix": "scd",
+    "body": "const ${1} = styled.div`\n\n`",
+    "description": "Creates a styled div"
+  },
+  "styledGrid": {
+    "prefix": "scgrid",
+    "body": "const ${1:Grid} = styled.div`\n\tdisplay: grid;\n\tgrid-template-columns: (3, 1fr);\n`",
+    "description": "Styled grid"
+  },
+  "styledFlex": {
+    "prefix": "scflex",
+    "body": "const ${1:Flex} = styled.div`\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n`",
+    "description": "Styled flex"
+  },
+  "consoleLog": {
+    "prefix": "clo",
+    "body": "console.log('${1}', ${1})",
+    "description": "Console log"
+  }
+}
